@@ -1,21 +1,3 @@
-<!DOCTYPE html>
-<html>
-<head>
-<meta charset="utf-8">
-<title>Face Detection OpenCV.js</title>
-</head>
-<body>
-<script async src="opencv.js" onload="onOpenCvReady();" type="text/javascript"></script>
-<script  src="utils.js" type="text/javascript"></script>
-<h1>Welcome to Facedetection using Opencvjs</h1>
-<div id="webcamcontrols">
-	    <video id="videoTest"  style="width:"840px; height: 400px; display:none;" playsinline></video>
-  	    <canvas id="canvasOutput" height="100" width="100"></canvas>
-
-  
-</div>
-<script language="javascript" type="text/javascript">
-
 let width = 0;
 let height = 0;
 
@@ -136,8 +118,3 @@ processVideo();
 
 
 	}
-
-</script>
-
-</body>
-</html>
